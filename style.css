@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: url("/images/pattern-background-desktop.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #e0e8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  max-width: 450px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 20px 40px #c7cff2;
+}
+
+.card img {
+  border-radius: 20px 20px 0 0;
+  max-width: 100%;
+}
+
+.card .info {
+  padding: 30px 30px 0 30px ;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: hsl(223, 47%, 23%);
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+h1 + p {
+  color: hsl(224, 23%, 55%);
+  line-height: 1.7;
+}
+
+.subscription {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plan {
+  display: flex;
+  align-items: center;
+}
+
+.plan img {
+  padding-right: 20px;
+}
+
+.plan p:first-child {
+  margin-bottom: 5px;
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+
+.plan p:last-child {
+  color: hsl(224, 23%, 55%);
+}
+
+.subscription .change {
+  font-size: 0.8rem;
+  font-weight: bolder;
+}
+
+.subscription .change:hover {
+  color: rgba(56, 42, 225, 0.69);
+  text-decoration: none;
+}
+
+.payment button {
+  width: 100%;
+  padding: 20px;
+  margin-block: 20px;
+  display: block;
+  border-radius: 15px;
+  border: none;
+  font-size: 1rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.payment button:first-child {
+  color: white;
+  background-color: #382ae1;
+  transition: 0.2s;
+}
+
+.payment button:first-child:hover {
+  background-color: rgba(56, 42, 225, 0.69);
+}
+
+.payment button:last-child {
+  color: hsl(224, 23%, 55%);
+}
+
+.payment button:last-child:hover {
+  color: hsl(223, 47%, 23%);
+
+  background-color: hsl(225, 100%, 98%);
+}
+
+@media (max-width: 767px) {
+  body {
+    padding: 50px 25px;
+    background-image: url("/images/pattern-background-mobile.svg");
+  }
+
+  h1 + p {
+    font-size: 0.9rem;
+  }
+
+  .plan img {
+    padding-right: 10px;
+  }
+
+  .plan p:first-child {
+    font-size: 0.8rem;
+  }
+
+  .plan p:last-child {
+    font-size: 0.7rem;
+  }
+
+  .subscription .change {
+    font-size: 0.8rem;
+  }
+
+  .payment button {
+    font-size: 0.9rem;
+  }
+}
