@@ -37,10 +37,10 @@ body {
 }
 
 h1 {
-  margin-bottom: 20px;
+  margin-block: 20px;
   color: hsl(223, 47%, 23%);
   font-weight: bolder;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 
 h1 + p {
@@ -50,6 +50,7 @@ h1 + p {
 
 .subscription {
   margin: 30px 15px;
+  margin: auto;
   padding: 20px;
   border-radius: 20px;
   background-color: hsl(225, 100%, 98%);
@@ -78,6 +79,7 @@ h1 + p {
 }
 
 .subscription .change {
+  color: #382ae1;
   font-size: 0.8rem;
   font-weight: bolder;
 }
@@ -89,12 +91,13 @@ h1 + p {
 
 .payment button {
   width: 100%;
-  padding: 15px;
+  padding: 20px 0;
   margin: 20px 15px;
+  margin-inline: auto;
   display: block;
   border-radius: 10px;
   border: none;
-  font-size: 1rem;
+  font-size: .9rem;
   font-weight: bolder;
   cursor: pointer;
 }
