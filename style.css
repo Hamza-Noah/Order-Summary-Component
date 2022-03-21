@@ -33,23 +33,23 @@ body {
 }
 
 .card .info {
-  padding: 30px 30px 0 30px ;
+  padding: 30px;
 }
 
 h1 {
   margin-bottom: 20px;
   color: hsl(223, 47%, 23%);
   font-weight: bolder;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 h1 + p {
   color: hsl(224, 23%, 55%);
-  line-height: 1.7;
+  line-height: 1.8;
 }
 
 .subscription {
-  margin-top: 30px;
+  margin: 30px 15px;
   padding: 20px;
   border-radius: 20px;
   background-color: hsl(225, 100%, 98%);
@@ -89,10 +89,10 @@ h1 + p {
 
 .payment button {
   width: 100%;
-  padding: 20px;
-  margin-block: 20px;
+  padding: 15px;
+  margin: 20px 15px;
   display: block;
-  border-radius: 15px;
+  border-radius: 10px;
   border: none;
   font-size: 1rem;
   font-weight: bolder;
