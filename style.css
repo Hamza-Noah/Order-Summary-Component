@@ -50,7 +50,7 @@ h1 + p {
 }
 
 .subscription {
-  width: 95%;
+  width: 90%;
   margin: 30px 15px;
   margin: auto;
   padding: 20px;
@@ -94,8 +94,8 @@ h1 + p {
 }
 
 .payment button {
-  width: 95%;
-  padding: 20px 0;
+  width: 90%;
+  padding: 10px 0;
   margin: 15px;
   margin-inline: auto;
   display: block;
