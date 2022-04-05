@@ -120,7 +120,7 @@ h1 + p {
 
 .payment button:last-child {
   color: hsl(224, 23%, 55%);
-  /* background-color: white; */
+  background-color: white;
 }
 
 @media (max-width: 767px) {
