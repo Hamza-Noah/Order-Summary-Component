@@ -51,7 +51,7 @@ h1 + p {
 
 .subscription {
   width: 90%;
-  margin: 30px 15px;
+  margin: 30px 15px 40px;
   margin: auto;
   padding: 20px;
   border-radius: 20px;
@@ -102,7 +102,7 @@ h1 + p {
   border-radius: 10px;
   border: none;
   font-size: 0.9rem;
-  font-weight: bolder;
+  font-weight: 700;
   cursor: pointer;
 }
 
@@ -111,7 +111,6 @@ h1 + p {
   background-color: #382ae1;
   transition: 0.2s;
   box-shadow: 0 5px 10px -2px #382ae1;
-
 }
 
 .payment button:first-child:hover {
@@ -121,6 +120,10 @@ h1 + p {
 .payment button:last-child {
   color: hsl(224, 23%, 55%);
   background-color: white;
+}
+
+.payment button:last-child:hover {
+  color:  hsl(223, 47%, 23%);
 }
 
 @media (max-width: 767px) {
