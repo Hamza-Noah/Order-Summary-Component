@@ -39,7 +39,7 @@ body {
 h1 {
   margin-block: 20px;
   color: hsl(223, 47%, 23%);
-  font-weight: bolder;
+  font-weight: 700;
   font-size: 1.6rem;
 }
 
@@ -95,7 +95,7 @@ h1 + p {
 
 .payment button {
   width: 90%;
-  padding: 10px 0;
+  padding: 18px;
   margin: 15px;
   margin-inline: auto;
   display: block;
