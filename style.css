@@ -40,19 +40,18 @@ h1 {
   margin-block: 20px;
   color: hsl(223, 47%, 23%);
   font-weight: 700;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
 }
 
 h1 + p {
   color: hsl(224, 23%, 55%);
-  line-height: 1.8;
+  line-height: 1.5;
   margin-bottom: 20px;
 }
 
 .subscription {
   width: 90%;
-  margin: 30px 15px 40px;
-  margin: auto;
+  margin: 30px auto;
   padding: 20px;
   border-radius: 20px;
   background-color: hsl(225, 100%, 98%);
@@ -95,7 +94,7 @@ h1 + p {
 
 .payment button {
   width: 90%;
-  padding: 18px;
+  padding: 15px;
   margin: 15px;
   margin-inline: auto;
   display: block;
