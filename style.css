@@ -70,9 +70,9 @@ h1 + p {
 }
 
 .plan p:first-child {
-  margin-bottom: 5px;
+  margin-bottom: 7px;
   color: hsl(223, 47%, 23%);
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .plan p:last-child {
@@ -100,8 +100,8 @@ h1 + p {
   display: block;
   border-radius: 10px;
   border: none;
-  font-size: 0.9rem;
-  font-weight: 700;
+  font-size: 0.8rem;
+  font-weight: 900;
   cursor: pointer;
 }
 
